@@ -50,9 +50,12 @@ int _tmain(int argc, _TCHAR* argv[])
     mt19937 gen(rd());
     uniform_int_distribution<int> color(9, 14);
     HANDLE cons = GetStdHandle(STD_OUTPUT_HANDLE);
+    COORD xory;
+    xory.X = 0;
+    xory.Y = 0;
     
     while(true){
-        system("cls");
+        SetConsoleCursorPosition(cons, xory);
         init();
         cout << "                *                " << endl;
         cout << "               ***               " << endl;

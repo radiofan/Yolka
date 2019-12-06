@@ -8,7 +8,7 @@ void init(){
     cout << "º PROGRAM: X-MAS YOLKA º" << endl;
     cout << "ÇÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¶" << endl;
     cout << "º Author: RADIOFAN     º" << endl;
-    cout << "º Version: 1.0         º" << endl;
+    cout << "º Version: 1.1         º" << endl;
     cout << "ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼" << endl;
     cout << endl;
 }
